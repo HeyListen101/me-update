@@ -27,6 +27,6 @@ export async function GET(request: NextRequest) {
         }
     }
 
-    redirectTo.pathname = "/error"
+    redirectTo.pathname = "/signin"
     return NextResponse.redirect(redirectTo)
 }
